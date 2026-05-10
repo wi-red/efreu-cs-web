@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About the EFREI Computer Science Department showcase website - team members, project description and contact form.">
+    <title>About &; Contact - EFREI Computer Science</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="brand">
+                <img src="images/logo.png" alt="EFREI logo">
+                <span class="brand-text">
+                    <span class="dept-name">Computer Science</span>
+                    <span class="dept-sub">Department</span>
+                </span>
+            </a>
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="faculty.html">Faculty</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Banner -->
+        <section class="page-banner">
+            <div class="container">
+                <p class="breadcrumb"><a href="index.html">Home</a> &rsaquo; About</p>
+                <h1>About this project</h1>
+                <p>Information about the website, the team behind it and how to get in touch with the Computer Science Department.</p>
+            </div>
+        </section>
+
+        <!-- Project intro -->
+        <section>
+            <div class="container">
+                <div class="two-col">
+                    <div>
+                        <span class="section-eyebrow">The project</span>
+                        <h2>A web project for course TI402</h2>
+                        <p>This website was built as part of the <strong>TI402 Web Development</strong> course of the second-year Bachelor in Computer Science at EFREI Paris. The goal of the project is to apply the concepts of HTML5, CSS and JavaScript covered in the lab sessions to a complete, multi-page website.</p>
+
+                        <p>The chosen subject is a showcase site for the Computer Science Department itself. It presents the programs, the faculty and the research labs in a single place, in a layout meant to look like a small institutional website.</p>
+
+                        <h3 style="margin-top: 26px;">What we did</h3>
+                        <ul style="margin-left: 22px;">
+                            <li>Designed a mockup of the website.</li>
+                            <li>Wrote, W3C-valid HTML5 for four main pages.</li>
+                            <li>Styled the website with a single, organised CSS file using the EFREI brand colours.</li>
+                            <li>Implemented a responsive layout with media queries for tablet and mobile.</li>
+                            <li>Added a contact form and several data tables to demonstrate forms and tables manipulation.</li>
+                        </ul>
+
+                        <p style="margin-top: 18px;">The constraint of building everything without any framework or library was a useful discipline. It forced us to write CSS from scratch, to think about reusable classes and to keep the code easy to read. We chose not to use any javascript because of time issues. </p>
+
+                        <h3 style="margin-top: 26px;">Tech and tools used</h3>
+                        <ul style="margin-left: 22px;">
+                            <li><strong>HTML5</strong> with semantic elements (<code>header</code>, <code>nav</code>, <code>main</code>, <code>section</code>, <code>article</code>, <code>footer</code>).</li>
+                            <li><strong>CSS</strong> with Flexbox, CSS Grid and media queries.</li>
+                            <li><strong>Git</strong> for version control and collaboration.</li>
+                            <li><strong>Canva</strong> for the wireframe.</li>
+                        </ul>
+                    </div>
+
+                    <aside class="sidebar">
+                        <h3>Project info</h3>
+                        <ul>
+                            <li class="info-line"><span>Course code</span><strong>TI402</strong></li>
+                            <li class="info-line"><span>Year</span><strong>2025 - 2026</strong></li>
+                            <li class="info-line"><span>Pages</span><strong>4</strong></li>
+                            <li class="info-line"><span>Supervisor</span><strong>Asma Gabis</strong></li>
+                        </ul>
+
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team -->
+        <section class="section-alt">
+            <div class="container">
+                <span class="section-eyebrow">The team</span>
+                <div class="section-header">
+                    <h2>Project members</h2>
+                </div>
+
+                <div class="team-grid">
+                    <article class="team-member">
+                        <div class="name-row">
+                            <h3>Romain KOHNKE</h3>
+                        </div>
+                        <p class="role">Project lead / front-end</p>
+                        <p>Coordinated the work of the group, made the mockup via Canva and wrote most of the HTML for the home and courses pages.</p>
+                        <ul>
+                            <li>Site map and wireframe</li>
+                            <li>Home and Courses pages</li>
+                            <li>Cross-browser testing</li>
+                        </ul>
+                    </article>
+
+                    <article class="team-member">
+                        <div class="name-row">
+                            <h3>Samy GHARNAOUT</h3>
+                        </div>
+                        <p class="role">CSS & design</p>
+                        <p>In charge of the visual style guide, the CSS architecture and made the Github repository. </p>
+                        <ul>
+                            <li>Style guide and color palette</li>
+                            <li>Main stylesheet (style.css)</li>
+                            <li>Responsive breakpoints</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact form -->
+        <section>
+            <div class="container">
+                <div class="two-col">
+                    <div>
+                        <span class="section-eyebrow">Get in touch</span>
+                        <h2>Contact form</h2>
+                        <p>Use the form below to ask us a question about the website, the department or our programs. Fields marked with <span style="color:#c4007a;">*</span> are required.</p>
+
+                        <form class="contact-form">
+                            <div class="form-row two-cols">
+                                <div>
+                                    <label for="firstname">First name <span class="required">*</span></label>
+                                    <input type="text" id="firstname" name="firstname" required>
+                                </div>
+                                <div>
+                                    <label for="lastname">Last name <span class="required">*</span></label>
+                                    <input type="text" id="lastname" name="lastname" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row two-cols">
+                                <div>
+                                    <label for="email">Email <span class="required">*</span></label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div>
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <label for="subject">Subject <span class="required">*</span></label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Please choose a topic</option>
+                                    <option value="admissions">Admissions and applications</option>
+                                    <option value="curriculum">Courses</option>
+                                    <option value="faculty">Faculty and research</option>
+                                    <option value="internship">Internships and partnerships</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <fieldset>
+                                <legend>I am a</legend>
+                                <div class="radio-row">
+                                    <input type="radio" id="profile-student" name="profile" value="student" checked>
+                                    <label for="profile-student">Prospective student</label>
+                                </div>
+                                <div class="radio-row">
+                                    <input type="radio" id="profile-current" name="profile" value="current">
+                                    <label for="profile-current">Current student</label>
+                                </div>
+                                <div class="radio-row">
+                                    <input type="radio" id="profile-parent" name="profile" value="parent">
+                                    <label for="profile-parent">Parent or family</label>
+                                </div>
+                                <div class="radio-row">
+                                    <input type="radio" id="profile-pro" name="profile" value="professional">
+                                    <label for="profile-pro">Industry professional</label>
+                                </div>
+                            </fieldset>
+
+                            <div class="form-row">
+                                <label for="message">Your message <span class="required">*</span></label>
+                                <textarea id="message" name="message" required placeholder="Write your message here..."></textarea>
+                            </div>
+
+                            <fieldset>
+                                <legend>Topics of interest (optional)</legend>
+                                <div class="checkbox-row">
+                                    <input type="checkbox" id="int-bachelor" name="interest" value="bachelor">
+                                    <label for="int-bachelor">Bachelor program</label>
+                                </div>
+                                <div class="checkbox-row">
+                                    <input type="checkbox" id="int-engineering" name="interest" value="engineering">
+                                    <label for="int-engineering">Engineering program</label>
+                                </div>
+                                <div class="checkbox-row">
+                                    <input type="checkbox" id="int-master" name="interest" value="master">
+                                    <label for="int-master">Master program</label>
+                                </div>
+                                <div class="checkbox-row">
+                                    <input type="checkbox" id="int-research" name="interest" value="research">
+                                    <label for="int-research">Research labs</label>
+                                </div>
+                            </fieldset>
+
+
+                            <div class="form-row" style="margin-top: 22px;">
+                                <button type="submit" class="btn btn-dark">Send message</button>
+                                <button type="reset" class="btn" style="margin-left: 8px; background-color: #ffffff; color: #163767; border-color: #c4ccd6;">Reset</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <aside class="sidebar">
+                        <h3>Department contact</h3>
+                        <ul>
+                            <li><strong>Address</strong><br>30-32 avenue de la Republique<br>94800 Villejuif, France</li>
+                            <li><strong>Phone</strong><br>+33 188 289 000</li>
+                            <li><strong>Office hours</strong><br>Monday to Friday<br>9:00 - 17:30</li>
+                        </ul>
+
+                        <h3 style="margin-top: 24px;">Repository</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 6px;">Source code of this project on GitHub:</p>
+                        <p style="font-size: 0.88rem; margin-bottom: 0; word-break: break-all;"><a href="#">https://github.com/wi-red/efreu-cs-web.git</a></p>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/logo-white.png" alt="EFREI logo">
+                    <p>Grande ecole d'ingenieurs generalistes &; d'experts du numerique de l'Universite Pantheon-Assas. Showcase site for the Computer Science Department, made by Romain Kohnke and Samy Gharnaout</p>
+                </div>
+                <div>
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses &; Programs</a></li>
+                        <li><a href="faculty.html">Faculty</a></li>
+                        <li><a href="about.html">About / Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Department</h4>
+                    <ul>
+                        <li><a href="courses.html">Bachelor program</a></li>
+                        <li><a href="courses.html">Engineering program</a></li>
+                        <li><a href="faculty.html">Research labs</a></li>
+                        <li><a href="about.html">Student services</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Address</h4>
+                    <ul>
+                        <li>30-32 avenue de la Republique</li>
+                        <li>94800 Villejuif, France</li>
+                        <li>+33 188 289 000</li>
+                        <li><a href="about.html">Contact form</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
